@@ -39,19 +39,15 @@ public class groupAnagram{
           {
             char[] ca=s.toCharArray();
             Arrays.sort(ca);
+            String key = new String(ca);
             
-            if(!map.containsKey(String.valueOf(ca)))
-            map.put(String.valueOf(ca) ,new ArrayList<>());
+            if(!map.containsKey(key))
+            map.put(key ,new ArrayList<>());
 
             else 
-            map.get(String.valueOf(ca)).add(s);
+              map.get(key).add(s);
           }
 
-          List<List<String>> list = new ArrayList<>();
-
-          for(List <String> l: map.values())
-           list.add(l);
-
-        return list;
+          return new ArrayList<>(map.values());
     }
 }
