@@ -1,4 +1,4 @@
-package Striver;
+package DP.Striver;
 import java.util.*;
 public class Fibonacchi
 {
