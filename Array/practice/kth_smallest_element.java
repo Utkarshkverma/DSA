@@ -16,6 +16,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
+@SuppressWarnings("unused")
 public class kth_smallest_element {
     public static void main(String[] args) {
         int arr1[] = {7, 4, 6, 3, 9, 1};
