@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class BinarySearch {
     public static void main(String[] args) {
          int arr[] = {2, 4, 10, 45};
