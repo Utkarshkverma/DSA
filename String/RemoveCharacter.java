@@ -20,7 +20,6 @@ Explanation: AACBBC -> AABB -> AB -> ""
 
 package String;
 import java.util.*;
-
 @SuppressWarnings("unused")
 public class RemoveCharacter {
     public static void main(String[] args) {
