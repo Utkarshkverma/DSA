@@ -62,6 +62,6 @@ public class First_and_last_occurance {
 
     public static int count(int arr[],int k)
     {
-        return last_pos(arr, k) - first_pos(arr, k);
+        return last_pos(arr, k) - first_pos(arr, k) +1;
     }
 }
